@@ -1,48 +1,55 @@
 /* common shard styles*/
-body{
-    font-family: 'Open Sans', sans-serif;
+body {
+  font-family: "Open Sans", sans-serif;
 }
-.btn-primary{
-    border-radius: 5px;
-    background-color: #fd6e0a ;
-    border: 0;
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 15px 35px;
-    
+.btn-primary {
+  border-radius: 5px;
+  background-color: #fd6e0a;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
 }
 
-.text-primary{
-    color: #fd6e0a;
-    
+.text-primary {
+  color: #fd6e0a;
 }
 
 /* nav related styles*/
 nav {
-    display: flex;
-    /* justify-content: space-between; */
-    align-items: center;
-
-} 
-.nav-title{
-    color: #181818;
-    font-size: 45px;
-    font-weight: 800;
-   
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 200px;
+}
+.nav-title {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
 }
 
-nav > ul{
-    display: flex;
-    align-items: center;
-    
+nav > ul {
+  display: flex;
+  align-items: center;
 }
-nav li{
-    list-style: none;
-    margin-right: 50px;
-    
+nav li {
+  list-style: none;
+  margin-right: 50px;
 }
-nav a{
-    text-decoration: none;
-    color: #474747;
+nav a {
+  text-decoration: none;
+  color: #474747;
+}
+/* header related styles */
+.header {
+  background-color: #fff8f3;
+}
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+}
+.banner.profile-pic {
+  width: 500px;
 }
