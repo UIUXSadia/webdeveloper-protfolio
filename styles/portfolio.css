@@ -102,3 +102,12 @@ main {
   border-radius: 10;
   margin: 130px 0;
 }
+
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-info {
+  text-align: center;
+}
