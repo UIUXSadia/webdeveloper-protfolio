@@ -177,8 +177,27 @@ main section {
 }
 
 /* footer related styles */
+
+.social-link {
+  text-align: 24px;
+}
+.section-title {
+  text-align: left;
+}
 footer {
   display: flex;
   padding: 130px 230px;
   background: #fff8f3;
+  gap: 100px;
+}
+.footer-column {
+  width: 50%;
+}
+.section-description {
+  text-align: left;
+}
+.contact input,
+textarea {
+  display: block;
+  margin-bottom: 24px;
 }
